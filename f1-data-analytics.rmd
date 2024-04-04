@@ -1,0 +1,53 @@
+
+---
+title: "Analysis of Formula 1 Data"
+author: Abhiram Gunti
+date: "04/12/2024"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Table of Contents
+
+1. Data Analytics and Visualization
+    - What is it?
+    - Why is it important?
+2. Intro to Formula 1
+    - Important concepts about the sport
+3. Data Analysis Process
+    - Data Collection
+    - Data Cleaning
+    - Data Analysis
+    - Data Visualization
+
+
+## Data Analytics and Visualization
+
+### What is it?
+- take raw data and turn it into useful informaiton
+- clean messy data to make easy to work with
+- discover patterns and insights by representing the data in different ways
+- use languages like R and Python, and libraries such as pandas and matplotlib
+
+### Why is it important?
+
+- Proper data analytics can help improve decision making, show hidden trends, and help in forecasting
+
+
+## Intro to Formula 1
+
+<img src="images/f1_logo.png" alt="F1 Logo" width="200">
+<br><br>
+
+- Formula 1 is the premiere open-wheel motorsport racing series
+- Top 20 drivers in the world compete in ~23 races a year to win the World Drivers Championship title
+- 10 teams (2 drivers per team) compete to win the World Constructors Championship title
+
+## Data in F1
+
+// why collect data in f1 yada yada
+
+## Data Analysis Process
