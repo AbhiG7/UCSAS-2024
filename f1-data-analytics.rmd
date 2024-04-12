@@ -27,27 +27,138 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Data Analytics and Visualization
 
 ### What is it?
-- take raw data and turn it into useful informaiton
-- clean messy data to make easy to work with
-- discover patterns and insights by representing the data in different ways
-- use languages like R and Python, and libraries such as pandas and matplotlib
+- Raw data --> useful information
+- Clean up messy data
+- Discover patterns and insights by representing the data in different ways
 
 ### Why is it important?
 
 - Proper data analytics can help improve decision making, show hidden trends, and help in forecasting
+- In sports, improves team/individual performance, helps in scouting, etc.
 
+## Data Analytics and Visualization (cont)
+
+### Common Tools
+- Common tools: R and Python
+- Common libraries: Pandas and Matplotlib
+
+<center>
+
+<img src="images/r_logo.png" alt="F1 Logo" width="100" style="padding: 30px; margin-top: 40px;">
+<img src="images/python_logo.png" alt="F1 Logo" width="100" style="padding: 30px;">
+<img src="images/pandas_logo.png" alt="F1 Logo" width="200" style="padding: 30px; margin-top: 40px;">
+<img src="images/matplotlib_logo.png" alt="F1 Logo" width="100" style="padding: 30px;">
+
+</center>
 
 ## Intro to Formula 1
+<center>
 
 <img src="images/f1_logo.png" alt="F1 Logo" width="200">
-<br><br>
+
+</center>
+<br>
 
 - Formula 1 is the premiere open-wheel motorsport racing series
 - Top 20 drivers in the world compete in ~23 races a year to win the World Drivers Championship title
 - 10 teams (2 drivers per team) compete to win the World Constructors Championship title
 
+## Basics and Terminology
+
+- Each race is 300km (~50-70 laps depending on circuit)
+- Qualifiying on Saturday sets grid order for Sunday race
+- Each team has to adjust their setup and determine a race strategy every race
+- Grid, pole position, pit stop, strategy
+
+<center>
+
+<img src="images/mclaren-pit-wall.jpeg" alt="McLaren pit wall analyizng data" width="400">
+
+</center>
+
 ## Data in F1
 
-// why collect data in f1 yada yada
+- Macro scale: analyse evolution of sport, performance of teams over their history
+    - Team win history, top speed of cars over time, etc.
+- Per team scale: analyze car performance at each race to tune setup and race strategy
+    - Downforce, tire temperature, fuel consumption, etc.
+
+<center>
+
+<img src="images/leclerc_data_ex.png" alt="Charles Leclerc's Monza lap data" width="300">
+
+</center>
+
+- Data helps improve car performance from practice to race, and from year to year
 
 ## Data Analysis Process
+
+<center>
+
+<img src="images/ds_pipeline.jpg" alt="Data science pipeline" width="400">
+
+</center>
+<br>
+
+- Data collection, Data cleaning, Data analysis, Data visualization
+
+
+## Data Collection
+
+- First Party Data: data collected by you or the organization itself
+    - Social media followers, feedback forms, sensor data, etc.
+- Second Party Data: data collected not directly by you
+    - Trusted partners, web scraping, etc.
+- Third Party Data: data collected from external sources
+    - Kaggle, Unaffiliated companies, etc.
+- Dataset: Formula 1 World Championship (1950-2023)
+
+
+## Data Cleaning
+
+- Once the data is collected, it needs to be cleaned
+- Involves removing any errors, inconsistencies, or duplicates in the data
+- It might also make sense to restructure the data as you see fit
+
+<br>
+
+<center>
+
+<img src="images/data_cleaning.png" alt="Data cleaning graphic" width="380">
+
+</center>
+
+## Data Analysis
+
+<center>
+
+<img src="images/data_analytics.jpg" alt="Data analysis graphic" width="380">
+
+</center>
+
+- Explore the data, play around with it
+- Using your intuition, place different data together and graph them
+- Use statistical methods to discover patterns and trends in the data
+
+
+## Data Visualization
+
+- Final step of the data analytics process is data visualization
+- Involves presenting the data in a visual format to make it easier to understand
+- Tell a story with your graphs and visualizations
+
+<br>
+
+<center>
+
+<img src="images/visualization.jpeg" alt="Data visualization graphic" width="400">
+
+</center>
+
+
+## Resources
+
+- https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
+- https://towardsdatascience.com/a-beginners-guide-to-the-data-science-pipeline-a4904b2d8ad3
+- https://www.simplilearn.com/tutorials/data-analytics-tutorial/what-is-data-analytics
+- https://blog.hubspot.com/service/first-party-data
